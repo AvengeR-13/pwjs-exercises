@@ -1,0 +1,17 @@
+let _correct = 0;
+let _failed = 0;
+let _failedTests = [];
+const test = (id, test) => { if (test) { _correct++; } else { _failed++; _failedTests.push(id); }; };
+let a = [[0, 1], [2, 3]];
+let b = deepCopy(a);
+a[0][0] = 9;
+test(1, b[1][1] === 3);
+test(2, b[0][0] === 0);
+a = [];
+b = deepCopy(a);
+test(3, b.length === 0);
+a = [[[[99]]], 3];
+b = deepCopy(a);
+test(4, b[0][0][0][0] === 99);
+test(5, b[1] === 3);
+[_correct, _failed, _failedTests];
