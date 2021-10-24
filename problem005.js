@@ -1,4 +1,4 @@
-let strangeSum = function(a, b) {
+const strangeSum = function(a, b) {
     if (!Number.isInteger(a) || !Number.isInteger(b)) {
         return null
     } else if (a === b) {

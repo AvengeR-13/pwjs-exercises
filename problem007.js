@@ -1,4 +1,4 @@
-const findMax = function (a) {
+const findMax = function(a) {
     let max = a;
     for (let i = 0; i <= arguments.length; i++) {
         if (max < arguments[i])

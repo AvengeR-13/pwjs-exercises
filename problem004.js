@@ -1,4 +1,4 @@
-const getTotalNumberOfNewYaersEveSundays = function (a, b) {
+const getTotalNumberOfNewYaersEveSundays = function(a, b) {
     let year = a;
     let counter = 0;
     for (year; year<= b; year++) {

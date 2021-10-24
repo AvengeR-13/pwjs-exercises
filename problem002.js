@@ -1,4 +1,4 @@
-let stringRotate = function(str, num) {
+const stringRotate = function(str, num) {
     if (typeof num !== 'number' || num < 0)
         return "";
 

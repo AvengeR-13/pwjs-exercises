@@ -1,4 +1,4 @@
-let magicSequence = function (a) {
+const magicSequence = function(a) {
     if (a === 1)
         return -1;
     else if (a <= 3)
