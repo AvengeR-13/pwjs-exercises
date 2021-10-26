@@ -1,2 +1,2 @@
-# Miłosz Jakubaszek PGK Gr 2
+# Miłosz Jakubaszek PGK Gr.2
 
